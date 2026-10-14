@@ -1,5 +1,7 @@
 <h1><picture><source media="(prefers-color-scheme: dark)" srcset="docs/images/ribble.gif"><img src="docs/images/ribble-dark.gif" alt="" height="42" align="absmiddle" /></picture> RoboLab</h1>
 
+> 本分支的多相机双目数据生产环境、外部资产下载、π0.5 服务、正式生成命令和可视化流程，请从 **[DATA_GENERATION_GUIDE.md](DATA_GENERATION_GUIDE.md)** 开始。
+
 [🌐 Website](https://research.nvidia.com/labs/srl/projects/robolab) · [📄 Paper](https://arxiv.org/abs/2604.09860) · [🏆 Leaderboard](https://research.nvidia.com/labs/srl/projects/robolab/leaderboard.html)
 
 **RoboLab** is a task-based evaluation benchmark for robot manipulation policies built on [NVIDIA Isaac Lab](https://github.com/isaac-sim/IsaacLab). It provides 100+ manipulation tasks with automated success detection, a server-client policy architecture, and multi-environment parallel evaluation — designed for reproducible, large-scale benchmarking of generalist robot policies in simulation.
